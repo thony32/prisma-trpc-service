@@ -36,13 +36,13 @@ export const appRouter = router({
             ProductsController.createProduct(input)
         }
     ),
-    updateProduct: publicProcedure
-        .input(ProductSchema)
-        .mutation(async (options) => {
-            const { input } = options
-            ProductsController.updateProduct(input.id, input)
-        }
-    ),
+    // updateProduct: publicProcedure
+    //     .input(ProductSchema)
+    //     .mutation(async (options) => {
+    //         const { input } = options
+    //         ProductsController.updateProduct(input.id, input)
+    //     }
+    // ),
     deleteProduct: publicProcedure
         .input(ProductId)
         .mutation(async (options) => {
