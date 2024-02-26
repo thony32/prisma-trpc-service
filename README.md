@@ -1,4 +1,6 @@
 # Get Started
+
+## Install dependencies
 ```sh
 npm install
 ```
